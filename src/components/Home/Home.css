@@ -36,7 +36,9 @@
     row-gap: 7rem;
   }
 
-
+/* .home__data{
+  background-color: blue;
+} */
 
   .home__content{
     grid-template-columns: 116px repeat(2,1fr);
@@ -209,6 +211,7 @@
     }
     .home__data{
       grid-column: 1/3;
+     
 
     }
     .home__scroll{

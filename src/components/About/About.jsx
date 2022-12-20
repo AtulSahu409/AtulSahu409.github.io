@@ -1,6 +1,6 @@
 import React from 'react'
 import Info from '../Info'
-import AboutImg from "../../assets/avatar.png"
+import AboutImg from "../../assets/about.png"
 import CV from "../../assets/Atul_Sahu_Resume.pdf"
 import "./About.css"
 const About = () => {
@@ -15,7 +15,11 @@ const About = () => {
             <div  className='about__data'>
                 <Info/>
                 <p className="about__description">
-                    frontend.....
+                Adaptable and highly motivated aspiring full stack developer with a significant amount of coding experience. Sense of accountability and striving for perfection through the implementation of user-oriented web applications. Eager to contribute in an environment that promotes learning and professional growth.
+                I specialize in MERN stack with having great knowledge in JavaScript, HTML, CSS & Data Structures and Algorithms.
+                Keep scrolling to see some of my latest work!
+
+
                 </p>
                 <a download="" href={CV} className="button button--flex" target="_blank">
                     Download CV

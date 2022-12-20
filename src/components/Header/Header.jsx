@@ -7,7 +7,7 @@ const Header = () => {
     <div>
         <header className='header'>
             <nav className='nav container'>
-                <a href='index.html' className='nav__logo'>Atul</a>
+                <a href='#home' className='nav__logo'>Atul</a>
                 
                 <div className={Toggle?"nav__menu show-menu" : "nav__menu"}>
                     <ul className='nav__list grid'>
@@ -22,17 +22,28 @@ const Header = () => {
                             </a>
                         </li>
                         <li className='nav__item'>
-                            <a href='#skills' className='nav__link'>
+                            <a href='#Skills' className='nav__link'>
                                 <i className='uil uil-file-alt nav__icon'></i>Skill
                             </a>
                         </li>
                         <li className='nav__item'>
-                            <a href='#project' className='nav__link'>
+                            <a href='#Qualification' className='nav__link'>
+                            <i class="uil uil-graduation-cap nav__icon"></i>Qualification
+                            </a>
+                        </li>
+                        {/* <li className='nav__item'>
+                            <a href='#git' className='nav__link'>
+                            <i class="uil uil-graduation-cap nav__icon"></i>git
+                            </a>
+                        </li> */}
+                        <li className='nav__item'>
+                            <a href='#Project'className='nav__link' >
                                 <i className='uil uil-briefcase-alt nav__icon'></i>Project
                             </a>
                         </li>
+                        
                         <li className='nav__item'>
-                            <a href='#contact' className='nav__link'>
+                            <a href='#Contact' className='nav__link'>
                                 <i className='uil uil-message nav__icon'></i>Contact
                             </a>
                         </li>
