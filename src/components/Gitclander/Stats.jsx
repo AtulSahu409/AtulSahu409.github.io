@@ -11,24 +11,14 @@ const Stats =() =>{
                 <img className='streak_img statsimg' src="https://github-readme-streak-stats.herokuapp.com?user=AtulSahu409&theme=radical&border_radius=4.6&theme=gruvbox_duo" alt="" />
             </a>
         </div>
-
-
-
-
-
-        
         <div className='lang_stats'>
-
-
             <a href="https://github.com/AtulSahu409" target="_blank">
-                <img className='lang_st_img statsimg' src="https://github-readme-stats.vercel.app/api?username=AtulSahu409&show_icons=true&theme=gruvbox_duo" alt="" />
+                <img className='lang_st_img statsimg' src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/top-langs/?username=AtulSahu409&bg_color=0D1117&color=5BCDEC&hide_border=true&width=100vh" alt="" />
             </a>
         </div>
         <div className='lang_stats'>
-           
             <a href="https://github.com/AtulSahu409" target="_blank">
-                <img className='lang_st_img statsimg' src="https://github-readme-stats.vercel.app/api/top-langs/?username=AtulSahu409&
-                langs_count=8" alt="" />
+                <img className='lang_st_img statsimg' src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api?username=AtulSahu409&hide_border=true&theme=react&hide_border=true&bg_color=0D1117" alt="" />
             </a>
 
         </div>
