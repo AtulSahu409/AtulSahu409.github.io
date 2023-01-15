@@ -30,7 +30,7 @@ const Git = () => {
       <div id='gitcalender'>
       <GitHubCalendar 
       style={{margin:'auto'}}
-      username="priyankadora20"
+      username="AtulSahu409"
       transformData={selectLastHalfYear}
       
       className="giton"

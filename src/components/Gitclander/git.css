@@ -17,8 +17,8 @@
     border: 1px solid transparent;
    
     display:grid;
-   
-    grid-template-columns: repeat(3,1fr);
+   grid-template-columns: repeat(3,1fr);
+   /* margin-left: 50px; */
 }
 .section__title{
   color: var(--text-color);
@@ -34,7 +34,7 @@
    
     display:grid;
    
-    grid-template-columns: repeat(1,1fr);
+    grid-template-columns: repeat(2,1fr);
 }
 #gitcalender{
   font-size: 15px;
@@ -52,7 +52,7 @@ align-items: center;
 
 
 
-@media screen and (max-width: 424px) {
+@media screen and (max-width: 700px) {
   #stats__small{
  
     width: 100%;
@@ -61,6 +61,7 @@ align-items: center;
     display:grid;
    
     grid-template-columns: repeat(1,1fr);
+    margin-left: 90px;
 }
 #stats{
   margin: auto;

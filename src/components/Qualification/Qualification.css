@@ -42,6 +42,7 @@
     column-gap: 1.5rem;
 }
 .qualification__title{
+    color:black;
     font-size: var(--normal-font-size);
     font-weight: var(--font-medium);
 }

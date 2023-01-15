@@ -8,7 +8,7 @@ const Qualification = () => {
         setToggleState(index)
     }
   return (
-    <section className="qualification section" >
+    <section className="qualification section" id="Qualification" >
     <h2 className='section__title'> Qualification </h2>
    
     <span className='section__subtitle'>My personal journey</span>
@@ -30,7 +30,7 @@ const Qualification = () => {
                 :'qualification__button  button--flex'
             }onClick={()=>toggleTab(2)}
                 >
-                    <i class="uil uil-briefcase-alt qualification__icon"></i>{""}Experience
+                    <i class="uil uil-briefcase-alt qualification__icon"></i>{""}Certificate
 
             </div>
         </div>
@@ -42,12 +42,14 @@ const Qualification = () => {
                 
                 <div className="qualification__data">
                 <div>
-                    <h3 className="qualification__title"> Web Design</h3>
+                    <h2 className="qualification__title">Full-Stack MERN Development</h2>
                     <span className="qualification__subtitle">
-                        Masai 
+                    Masai School
+ 
                     </span>
                     <div className='qualification__calender'>
-                    <i class="uil uil-calendar-alt"></i>2021-present
+                    <i class="uil uil-calendar-alt"></i>
+                    04/2022 – present
 
                     </div>
                     </div>
@@ -65,12 +67,13 @@ const Qualification = () => {
                     <span className="qualification__line"></span>
                     </div>
                 <div>
-                    <h3 className="qualification__title"> Web Design</h3>
+                    <h3 className="qualification__title">B.Sc.(Hons.)</h3>
                     <span className="qualification__subtitle">
-                        Masai 
+                    Bundelkhand University
                     </span>
                     <div className='qualification__calender'>
-                    <i class="uil uil-calendar-alt"></i>2021-present
+                    <i class="uil uil-calendar-alt"></i>
+                    07/2018 – 02/2023
 
                     </div>
                 </div>
@@ -80,12 +83,13 @@ const Qualification = () => {
 
                 <div className="qualification__data">
                 <div>
-                    <h3 className="qualification__title"> Web Design</h3>
+                    <h3 className="qualification__title"> Indermediate</h3>
                     <span className="qualification__subtitle">
-                        Masai 
+                    Jai Academy Public School
                     </span>
                     <div className='qualification__calender'>
-                    <i class="uil uil-calendar-alt"></i>2021-present
+                    <i class="uil uil-calendar-alt"></i>
+                    04/2017 – 06/2018
 
                     </div>
                     </div>
@@ -96,7 +100,7 @@ const Qualification = () => {
                 </div>
                 
                 
-                <div className="qualification__data">
+                {/* <div className="qualification__data">
                     <div></div>
                     <div>
                     <span className="quilifcation__rounder"></span>
@@ -113,7 +117,7 @@ const Qualification = () => {
                     </div>
                 </div>
                     
-                </div>
+                </div> */}
                 
             </div>
 
@@ -125,12 +129,13 @@ const Qualification = () => {
                 
             <div className="qualification__data">
                 <div>
-                    <h3 className="qualification__title"> product Design</h3>
+                    <h3 className="qualification__title">Tally</h3>
                     <span className="qualification__subtitle">
-                        Masai 
+                        KUBER COMOUTER
+
                     </span>
                     <div className='qualification__calender'>
-                    <i class="uil uil-calendar-alt"></i>2021-present
+                    <i class="uil uil-calendar-alt"></i>Jan/2020-July/2020
 
                     </div>
                     </div>
@@ -148,12 +153,12 @@ const Qualification = () => {
                     <span className="qualification__line"></span>
                     </div>
                 <div>
-                    <h3 className="qualification__title"> Web Design</h3>
+                    <h3 className="qualification__title">Olevel(NIELIT)</h3>
                     <span className="qualification__subtitle">
-                        Masai 
+                        R.J INSTITUTION
                     </span>
                     <div className='qualification__calender'>
-                    <i class="uil uil-calendar-alt"></i>2021-present
+                    <i class="uil uil-calendar-alt"></i>March/2021
 
                     </div>
                 </div>
@@ -163,12 +168,12 @@ const Qualification = () => {
 
                 <div className="qualification__data">
                 <div>
-                    <h3 className="qualification__title"> Web Design</h3>
+                    <h3 className="qualification__title">Course on Computer Concepts</h3>
                     <span className="qualification__subtitle">
-                        Masai 
+                        R.J INSTITUTION 
                     </span>
                     <div className='qualification__calender'>
-                    <i class="uil uil-calendar-alt"></i>2021-present
+                    <i class="uil uil-calendar-alt"></i>Dec/2018
 
                     </div>
                     </div>
@@ -179,7 +184,7 @@ const Qualification = () => {
                 </div>
                 
                 
-                <div className="qualification__data">
+                {/* <div className="qualification__data">
                     <div></div>
                     <div>
                     <span className="quilifcation__rounder"></span>
@@ -196,7 +201,7 @@ const Qualification = () => {
                     </div>
                 </div>
                     
-                </div>
+                </div> */}
                 
             </div>
         </div>

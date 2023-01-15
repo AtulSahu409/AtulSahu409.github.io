@@ -7,10 +7,9 @@ const Data = () => {
         <span className="wave " role="img" aria-labelledby="wave" >
                   👋🏻
         </span></h1>
-        <h3 className="home__subtitle">Visual </h3>
-        <p className='home__description'>I'm an aspiring Full Stack Developer
-</p>
-        <a href="" className="button button--flex">
+        {/* <h3 className="home__subtitle"> </h3> */}
+        <h3 className='home__description' >I'm an aspiring Full Stack Developer </h3>
+        <a href=" " className="button button--flex">
             say hello
         </a>
     </div>

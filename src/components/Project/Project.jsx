@@ -11,9 +11,7 @@ import Capture2 from '../../assets/Capture2.png';
 
 const Projects = () => {
   return (
-    <>
-      {/* <!-- My Services Section Start --> */}
-      <section className={styles.services} id="services">
+      <section className={styles.project} id="Projects" >
         <div className={styles.content}>
           <div className={styles.title}>
             <span>My Projects</span>
@@ -117,35 +115,14 @@ const Projects = () => {
               </div>
             </div>
           
-              {/* forth project */}
-              {/* <!-- <div className={styles.box}>
-              <div className={styles.icon}>
-                <img className="imgs" src={Capture3} alt="" />
-              </div>
-              <div className={styles.topic}>KFC</div>
-              <div className={styles.topicsum}>
-              <div className={styles.paradiv}><p>KFC is a global chicken restaurant brand with a rich,
-                 decades-long history of success and innovation. It all started with one cook, 
-                 Colonel Harland Sanders, who created a finger lickin' good recipe more than 75 years ago.</p></div>
-              <p>Teckstack:React|Redux|JavaScript|Mongodb|Express </p></div>
-              <div className={styles.mediaicons}>
-                <a href="https://github.com/Ankur9900/Kfc_clone"target="_blank">
-                  {" "}
-                  <AiOutlineGithub  size={"35px"}/>
-                </a>
-                <a href="https://sage-flan-e5e2d6.netlify.app/
-                 "target="_blank">
-                <AiOutlineGlobal id="btns" size={"35px"}/>
-                </a>
-              </div>
-            </div> --> */}
+              
 
 
 
             </div>
         </div>
       </section>
-    </>
+  
   );
 };
 

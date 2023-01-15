@@ -6,7 +6,7 @@ import "./About.css"
 const About = () => {
   return (
     <section className="about section" id="about">
-        <h2 className='section__title'>
+        <h2 className='section__title' style={{color:"white",marginTop:"-100px"}}>
             About ME
         </h2>
         <span className='section__subtitle'>My introduction</span>

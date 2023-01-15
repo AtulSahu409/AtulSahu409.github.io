@@ -16,8 +16,11 @@ import { BsBootstrap } from "react-icons/bs";
 export const Skillset=()=>{
     return(
         <>
-        <div className="section main" data-aos="fade-right">
+        
+        <div className="section main" data-aos="fade-right" id="skill">
+        
         <h1 style={{textAlign:"center"}}> Skills</h1>
+
           <div className="techsection">
           
             <div>
@@ -66,6 +69,7 @@ export const Skillset=()=>{
             </div>
           </div>
         </div>
+      
       </>
     )
 }
